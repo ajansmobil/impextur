@@ -1,0 +1,129 @@
+{
+  "id": 6232,
+  "date": "2021-10-10T20:47:18",
+  "date_gmt": "2021-10-10T20:47:18",
+  "guid": {
+    "rendered": "https://www.impextur.com/wp-content/uploads/2021/10/transit-ticaret.jpg"
+  },
+  "modified": "2021-10-10T20:47:18",
+  "modified_gmt": "2021-10-10T20:47:18",
+  "slug": "transit-ticaret-2",
+  "status": "inherit",
+  "type": "attachment",
+  "link": "https://www.impextur.com/ru/transit-ticaret-2/",
+  "title": { "rendered": "transit-ticaret" },
+  "author": 1,
+  "comment_status": "open",
+  "ping_status": "closed",
+  "template": "",
+  "meta": [],
+  "description": {
+    "rendered": "<p class=\"attachment\"><a href='https://www.impextur.com/wp-content/uploads/2021/10/transit-ticaret.jpg'><img width=\"300\" height=\"151\" src=\"https://www.impextur.com/wp-content/uploads/2021/10/transit-ticaret-300x151.jpg\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"https://www.impextur.com/wp-content/uploads/2021/10/transit-ticaret-300x151.jpg 300w, https://www.impextur.com/wp-content/uploads/2021/10/transit-ticaret-1024x514.jpg 1024w, https://www.impextur.com/wp-content/uploads/2021/10/transit-ticaret-768x386.jpg 768w, https://www.impextur.com/wp-content/uploads/2021/10/transit-ticaret-1536x772.jpg 1536w, https://www.impextur.com/wp-content/uploads/2021/10/transit-ticaret.jpg 1642w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n"
+  },
+  "caption": { "rendered": "" },
+  "alt_text": "",
+  "media_type": "image",
+  "mime_type": "image/jpeg",
+  "media_details": {
+    "width": 1642,
+    "height": 825,
+    "file": "2021/10/transit-ticaret.jpg",
+    "sizes": {
+      "medium": {
+        "file": "transit-ticaret-300x151.jpg",
+        "width": 300,
+        "height": 151,
+        "mime_type": "image/jpeg",
+        "source_url": "https://www.impextur.com/wp-content/uploads/2021/10/transit-ticaret-300x151.jpg"
+      },
+      "large": {
+        "file": "transit-ticaret-1024x514.jpg",
+        "width": 1024,
+        "height": 514,
+        "mime_type": "image/jpeg",
+        "source_url": "https://www.impextur.com/wp-content/uploads/2021/10/transit-ticaret-1024x514.jpg"
+      },
+      "thumbnail": {
+        "file": "transit-ticaret-150x150.jpg",
+        "width": 150,
+        "height": 150,
+        "mime_type": "image/jpeg",
+        "source_url": "https://www.impextur.com/wp-content/uploads/2021/10/transit-ticaret-150x150.jpg"
+      },
+      "medium_large": {
+        "file": "transit-ticaret-768x386.jpg",
+        "width": 768,
+        "height": 386,
+        "mime_type": "image/jpeg",
+        "source_url": "https://www.impextur.com/wp-content/uploads/2021/10/transit-ticaret-768x386.jpg"
+      },
+      "1536x1536": {
+        "file": "transit-ticaret-1536x772.jpg",
+        "width": 1536,
+        "height": 772,
+        "mime_type": "image/jpeg",
+        "source_url": "https://www.impextur.com/wp-content/uploads/2021/10/transit-ticaret-1536x772.jpg"
+      },
+      "consultio-large": {
+        "file": "transit-ticaret-900x313.jpg",
+        "width": 900,
+        "height": 313,
+        "mime_type": "image/jpeg",
+        "source_url": "https://www.impextur.com/wp-content/uploads/2021/10/transit-ticaret-900x313.jpg"
+      },
+      "consultio-medium": {
+        "file": "transit-ticaret-600x450.jpg",
+        "width": 600,
+        "height": 450,
+        "mime_type": "image/jpeg",
+        "source_url": "https://www.impextur.com/wp-content/uploads/2021/10/transit-ticaret-600x450.jpg"
+      },
+      "full": {
+        "file": "transit-ticaret.jpg",
+        "width": 1642,
+        "height": 825,
+        "mime_type": "image/jpeg",
+        "source_url": "https://www.impextur.com/wp-content/uploads/2021/10/transit-ticaret.jpg"
+      }
+    },
+    "image_meta": {
+      "aperture": "0",
+      "credit": "",
+      "camera": "",
+      "caption": "",
+      "created_timestamp": "0",
+      "copyright": "",
+      "focal_length": "0",
+      "iso": "0",
+      "shutter_speed": "0",
+      "title": "",
+      "orientation": "1",
+      "keywords": []
+    }
+  },
+  "post": null,
+  "source_url": "https://www.impextur.com/wp-content/uploads/2021/10/transit-ticaret.jpg",
+  "_links": {
+    "self": [
+      { "href": "https://www.impextur.com/ru/wp-json/wp/v2/media/6232" }
+    ],
+    "collection": [
+      { "href": "https://www.impextur.com/ru/wp-json/wp/v2/media" }
+    ],
+    "about": [
+      { "href": "https://www.impextur.com/ru/wp-json/wp/v2/types/attachment" }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://www.impextur.com/ru/wp-json/wp/v2/users/1"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://www.impextur.com/ru/wp-json/wp/v2/comments?post=6232"
+      }
+    ]
+  }
+}

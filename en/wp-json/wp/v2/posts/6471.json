@@ -1,0 +1,92 @@
+{
+  "id": 6471,
+  "date": "2021-10-03T23:39:14",
+  "date_gmt": "2021-10-03T23:39:14",
+  "guid": {
+    "rendered": "https://www.impextur.com/demo/transit-ticaret-nedir-neden-onemlidir/"
+  },
+  "modified": "2021-11-08T01:28:48",
+  "modified_gmt": "2021-11-08T01:28:48",
+  "slug": "what-is-transit-trade-why-important",
+  "status": "publish",
+  "type": "post",
+  "link": "https://www.impextur.com/en/what-is-transit-trade-why-important/",
+  "title": { "rendered": "What is Transit Trade, Why important?" },
+  "content": {
+    "rendered": "<p style=\"text-align: justify;\">For the short meaning of the transit trade is ; buying goods from some countries to sell somewhere without entering our country\u2019s customs area.</p>\n<p style=\"text-align: justify;\">The goods which are related with the transit trade, except of the tax and duty.</p>\n<p style=\"text-align: justify;\">If we bring the goods we bought and sell another selection to bonded warehouses, we need to issue a warehouse declaration. In this trade, our planned business must issue an invoice, and we must issue an invoice to our customer to whom we sell the goods. The invoice we will issue to our customer must be issued in English and in addition to VAT.</p>\n<p style=\"text-align: justify;\">In order to tax our earnings in our country, it is essential that the Turkish invoice to be issued is prepared without VAT. VAT will not be included in these invoices, since we do not pay VAT when buying and export when selling.</p>\n<p style=\"text-align: justify;\">Transit trade is a form of trade and is not subject to export and regimes. A tax return is not prepared for this purpose. This form of trade is subject to tax duty exemption. It can be applied to all payments applied in import and export, and also in transit trade. In other words, payment can be made such as cash payment, letter of credit, LC payment, document equivalent. As a school, all real and legal persons, who work taxable, vocational schools, do transit trade and are called transit traders.</p>\n<p style=\"text-align: justify;\">The payment made by the transit merchant to the seller from whom he bought the goods will be the purchase price, and the price collected from the buyer will be the sales price. These costs must be paid through one of the payment methods in export and import, submission of purchase and sale invoices and a written instruction through the bank. Transit trade cannot be carried out with goods whose trade is prohibited by international agreements and with countries whose import and export are prohibited.</p>\n<p style=\"text-align: justify;\">In transit trade, goods bought from another country are sold to other countries without being nationalized. In this trade, which takes place when the goods are received from the seller and reach the buyer, it does not matter from which place the goods are shipped. Only the shipping documents should be arranged according to the regulations of the country where the goods enter and leave. In our country, many real and legal persons do business via transit trade route. This system, which is easier than export and import due to its legislation, still brings foreign currency to our country. Although it may seem easy, it is actually the product of a work that needs attention.</p>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "<p>For the short meaning of the transit trade is ; buying goods from some countries to sell somewhere without</p>\n",
+    "protected": false
+  },
+  "author": 1,
+  "featured_media": 6231,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "sticky": false,
+  "template": "",
+  "format": "standard",
+  "meta": [],
+  "categories": [49],
+  "tags": [],
+  "_links": {
+    "self": [
+      { "href": "https://www.impextur.com/en/wp-json/wp/v2/posts/6471" }
+    ],
+    "collection": [
+      { "href": "https://www.impextur.com/en/wp-json/wp/v2/posts" }
+    ],
+    "about": [
+      { "href": "https://www.impextur.com/en/wp-json/wp/v2/types/post" }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://www.impextur.com/en/wp-json/wp/v2/users/1"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://www.impextur.com/en/wp-json/wp/v2/comments?post=6471"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 2,
+        "href": "https://www.impextur.com/en/wp-json/wp/v2/posts/6471/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 6835,
+        "href": "https://www.impextur.com/en/wp-json/wp/v2/posts/6471/revisions/6835"
+      }
+    ],
+    "wp:featuredmedia": [
+      {
+        "embeddable": true,
+        "href": "https://www.impextur.com/en/wp-json/wp/v2/media/6231"
+      }
+    ],
+    "wp:attachment": [
+      { "href": "https://www.impextur.com/en/wp-json/wp/v2/media?parent=6471" }
+    ],
+    "wp:term": [
+      {
+        "taxonomy": "category",
+        "embeddable": true,
+        "href": "https://www.impextur.com/en/wp-json/wp/v2/categories?post=6471"
+      },
+      {
+        "taxonomy": "post_tag",
+        "embeddable": true,
+        "href": "https://www.impextur.com/en/wp-json/wp/v2/tags?post=6471"
+      }
+    ],
+    "curies": [
+      { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+    ]
+  }
+}

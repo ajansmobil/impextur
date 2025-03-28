@@ -1,0 +1,92 @@
+{
+  "id": 6468,
+  "date": "2021-10-04T02:33:58",
+  "date_gmt": "2021-10-04T02:33:58",
+  "guid": {
+    "rendered": "https://www.impextur.com/demo/ihracat-neden-onemlidir/"
+  },
+  "modified": "2021-11-08T01:26:25",
+  "modified_gmt": "2021-11-08T01:26:25",
+  "slug": "why-export-matters",
+  "status": "publish",
+  "type": "post",
+  "link": "https://www.impextur.com/en/why-export-matters/",
+  "title": { "rendered": "Why export matters ?" },
+  "content": {
+    "rendered": "<p style=\"text-align: justify;\">To exporting something to some countries important for improve the firms and the\u00a0 promotion of competition. Firms are \u00a0generally tend to export for the following purposes:</p>\n<p style=\"text-align: justify;\">Increasing sales and profits: If the firm is performing well in the domestic market, its entry into foreign markets will likely increase profitability.</p>\n<p style=\"text-align: justify;\">Getting a share from world markets: The company that opens to foreign markets will learn what its competitors are doing to get a share in foreign markets and their marketing strategies.</p>\n<p style=\"text-align: justify;\">Reducing the dependence on the domestic market: By opening up to foreign markets, the firm will increase its marketing power and reduce its dependence on customers in the domestic market.</p>\n<p style=\"text-align: justify;\">Keeping the market fluctuations in balance: By opening up to the world markets, the company will get rid of the general and seasonal fluctuations in the domestic market and the pressure created by the changing consumer demands.</p>\n<p style=\"text-align: justify;\">Selling excess production capacity: By exporting, the rate of capacity utilization and the duration of production shifts can be increased. Thus, average unit costs will be reduced and economies of scale will be achieved.</p>\n<p style=\"text-align: justify;\">Increasing competitiveness: Export increases the competitiveness of the firm and a country. While the firm will benefit by adapting to new technologies, methods and methods, the country will also benefit from the improvement of its foreign trade balance.</p>\n<p style=\"text-align: justify;\">Creating employment: Exporting goods and services will create new job opportunities and reduce unemployment.</p>\n<p style=\"text-align: justify;\"><strong>WHAT ARE THE BENEFITS or RISKS OF EXPORTING FOR THE COMPANY?</strong></p>\n<p style=\"text-align: justify;\"><strong>The directly benefits of the export to the firms ;</strong></p>\n<ul style=\"text-align: justify;\">\n<li>It gives oppurtunity about your sales and extend to your marketshare</li>\n<li>If the capacity in the domestic market is not fully used, it allows to increase production and increase, it may not compensate for the shrinkage in the domestic market and the capacity in the domestic market.</li>\n<li>By entering foreign markets, it gives the opportunity to spread the competition in the domestic market and distribute the risk.</li>\n<li>Entering the foreign market by exporting tried and tested products in the domestic market reduces the cost of market research.</li>\n<li>Intense competition in international markets, exporters, their products in the market.</li>\n<li>it encourages them to adapt it according to their needs, so that technological \u201cknow-how\u201d level development is achieved.</li>\n<li>You reduce the negative impact of fluctuations in seasonal sales.</li>\n<li>You provide the firm with a steady flow of money and sufficient working capital.</li>\n<li>You extend the lifespan of your products.</li>\n<li>As you introduce your company and brand to other markets, your competitiveness in all markets increases.</li>\n</ul>\n<p style=\"text-align: justify;\"><strong>Similar risks encountered in the domestic and foreign markets are as follows:</strong></p>\n<ul style=\"text-align: justify;\">\n<li>Sales may remain below predicted levels.</li>\n<li>Competition may be more than expected.</li>\n<li>Customers may be slow to pay or not pay at all.</li>\n</ul>\n<p style=\"text-align: justify;\"><strong>Export-only risks can be summarized as follows:</strong></p>\n<ul>\n<li style=\"text-align: justify;\">The return of export revenues from the destination country may be restricted or prohibited.</li>\n<li style=\"text-align: justify;\">Fluctuations in exchange rates can reduce or eliminate profits or even cause losses.</li>\n<li style=\"text-align: justify;\">In case of non-payment or other contract-related disputes, there may be problems in going to court.</li>\n<li style=\"text-align: justify;\">Instability in the target market, such as war, civil war, or nationalization by a foreign state, can lead to losses.</li>\n<li style=\"text-align: justify;\">The product may not be accepted in foreign markets. Making changes to the product can be difficult.</li>\n</ul>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "<p>To exporting something to some countries important for improve the firms and the\u00a0 promotion of competition. Firms are</p>\n",
+    "protected": false
+  },
+  "author": 1,
+  "featured_media": 6228,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "sticky": false,
+  "template": "",
+  "format": "standard",
+  "meta": [],
+  "categories": [49],
+  "tags": [],
+  "_links": {
+    "self": [
+      { "href": "https://www.impextur.com/en/wp-json/wp/v2/posts/6468" }
+    ],
+    "collection": [
+      { "href": "https://www.impextur.com/en/wp-json/wp/v2/posts" }
+    ],
+    "about": [
+      { "href": "https://www.impextur.com/en/wp-json/wp/v2/types/post" }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://www.impextur.com/en/wp-json/wp/v2/users/1"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://www.impextur.com/en/wp-json/wp/v2/comments?post=6468"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 3,
+        "href": "https://www.impextur.com/en/wp-json/wp/v2/posts/6468/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 6833,
+        "href": "https://www.impextur.com/en/wp-json/wp/v2/posts/6468/revisions/6833"
+      }
+    ],
+    "wp:featuredmedia": [
+      {
+        "embeddable": true,
+        "href": "https://www.impextur.com/en/wp-json/wp/v2/media/6228"
+      }
+    ],
+    "wp:attachment": [
+      { "href": "https://www.impextur.com/en/wp-json/wp/v2/media?parent=6468" }
+    ],
+    "wp:term": [
+      {
+        "taxonomy": "category",
+        "embeddable": true,
+        "href": "https://www.impextur.com/en/wp-json/wp/v2/categories?post=6468"
+      },
+      {
+        "taxonomy": "post_tag",
+        "embeddable": true,
+        "href": "https://www.impextur.com/en/wp-json/wp/v2/tags?post=6468"
+      }
+    ],
+    "curies": [
+      { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+    ]
+  }
+}

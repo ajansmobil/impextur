@@ -1,0 +1,32 @@
+{
+  "id": 49,
+  "count": 4,
+  "description": "",
+  "link": "https://www.impextur.com/en/category/articles/",
+  "name": "Articles",
+  "slug": "articles",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+    "self": [
+      { "href": "https://www.impextur.com/en/wp-json/wp/v2/categories/49" }
+    ],
+    "collection": [
+      { "href": "https://www.impextur.com/en/wp-json/wp/v2/categories" }
+    ],
+    "about": [
+      {
+        "href": "https://www.impextur.com/en/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://www.impextur.com/en/wp-json/wp/v2/posts?categories=49"
+      }
+    ],
+    "curies": [
+      { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+    ]
+  }
+}

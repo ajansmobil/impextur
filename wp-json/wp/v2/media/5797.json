@@ -1,0 +1,5 @@
+{
+  "code": "rest_forbidden",
+  "message": "\u00dczg\u00fcn\u00fcm, bunu yapman\u0131za izin verilmiyor.",
+  "data": { "status": 401 }
+}

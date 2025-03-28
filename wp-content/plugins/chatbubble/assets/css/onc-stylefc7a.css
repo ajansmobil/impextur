@@ -1,0 +1,580 @@
+.onc-component--tl,
+.onc-component--tr,
+.onc-component--bl,
+.onc-component--br {
+  box-sizing: border-box;
+  margin: 25px;
+  position: fixed;
+  white-space: nowrap;
+  z-index: 99999;
+  padding-left: 0;
+  list-style: none;
+}
+
+.onc-component--tl *,
+.onc-component--tr *,
+.onc-component--bl *,
+.onc-component--br *,
+.onc-component--tl *:before,
+.onc-component--tr *:before,
+.onc-component--bl *:before,
+.onc-component--br *:before,
+.onc-component--tl *:after,
+.onc-component--tr *:after,
+.onc-component--bl *:after,
+.onc-component--br *:after {
+  box-sizing: inherit;
+}
+
+/*------------------------------------*\
+    #BASE | Modifiers
+\*------------------------------------*/
+/**
+ * These styles depends on the placement of the button.
+ * Styles can be:
+ * 1. Top-left:  modified by the " --tl " suffix.
+ * 2. Top-right: modified by the " --tr " suffix.
+ * 3. Bottom-left:  modified by the " --bl " suffix.
+ * 4. Bottom-right: modified by the " --br " suffix.
+ */
+.onc-component--tl {
+  left: 0;
+  top: 0;
+}
+
+.onc-component--tr {
+  right: 0;
+  top: 0;
+}
+
+.onc-component--bl {
+  left: 0;
+  bottom: 0;
+}
+
+.onc-component--br {
+  right: 0;
+  bottom: 0;
+}
+
+/*------------------------------------*\
+    #BUTTONS | Base
+\*------------------------------------*/
+.onc-component__button--main,
+.onc-component__button--child {
+  background-color: transparent;
+  display: inline-block;
+  position: relative;
+  border: none;
+  border-radius: 50%;
+  box-shadow:
+    0 0 4px rgba(0, 0, 0, 0.14),
+    0 4px 8px rgba(0, 0, 0, 0.28);
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  position: relative;
+  -webkit-user-drag: none;
+  color: #f1f1f1;
+}
+
+/**
+ * This is the unordered list for the list items that contain
+ * the child buttons.
+ *
+ */
+.onc-component__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.onc-component__list > li {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 1px;
+  padding: 10px 0;
+  margin: -10px 0;
+}
+
+/**
+ * These are the basic styles for all the icons inside the main button
+ */
+.onc-component__icon,
+.onc-component__main-icon--active,
+.onc-component__main-icon--resting,
+.onc-component__child-icon {
+  position: absolute;
+  text-align: center;
+  line-height: 56px;
+  width: 100%;
+}
+
+.onc-component__wrap {
+  padding: 25px;
+  margin: -25px;
+}
+
+[data-onc-toggle="hover"]:hover .onc-component__icon,
+[data-onc-toggle="hover"]:hover .onc-component__main-icon--active,
+[data-onc-toggle="hover"]:hover .onc-component__main-icon--resting,
+[data-onc-toggle="hover"]:hover .onc-component__child-icon,
+[data-onc-state="open"] .onc-component__icon,
+[data-onc-state="open"] .onc-component__main-icon--active,
+[data-onc-state="open"] .onc-component__main-icon--resting,
+[data-onc-state="open"] .onc-component__child-icon {
+  -webkit-transform: scale(1) rotate(0deg);
+  transform: scale(1) rotate(0deg);
+  transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1); /* easeOutCubic */
+}
+
+/*------------------------------------*\
+    #BUTTONS | Modifiers
+\*------------------------------------*/
+.onc-component__button--main {
+  height: 56px;
+  width: 56px;
+  z-index: 20;
+}
+
+.onc-component__button--child {
+  height: 56px;
+  width: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #9e9e9e;
+}
+
+.onc-component__main-icon--active,
+.onc-component__main-icon--resting {
+  -webkit-transform: scale(1) rotate(360deg);
+  transform: scale(1) rotate(360deg);
+  transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1); /* easeOutCubic */
+}
+
+.onc-rotate {
+  -webkit-transform: scale(1) rotate(360deg);
+  transform: scale(1) rotate(360deg);
+  transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1); /* easeOutCubic */
+}
+
+.onc-component__child-icon,
+.onc-component__child-icon {
+  line-height: 56px;
+  font-size: 18px;
+}
+
+.onc-component__main-icon--active {
+  opacity: 0;
+}
+
+[data-onc-toggle="hover"]:hover .onc-component__main-icon,
+[data-onc-state="open"] .onc-component__main-icon {
+  -webkit-transform: scale(1) rotate(0deg);
+  transform: scale(1) rotate(0deg);
+}
+
+[data-onc-toggle="hover"]:hover .onc-component__main-icon--resting,
+[data-onc-state="open"] .onc-component__main-icon--resting {
+  opacity: 0;
+  position: absolute !important;
+}
+
+[data-onc-toggle="hover"]:hover .onc-component__main-icon--active,
+[data-onc-state="open"] .onc-component__main-icon--active {
+  opacity: 1;
+}
+
+/*------------------------------------*\
+    #LABELS | base
+\*------------------------------------*/
+/**
+ * These are the labels associated to each button,
+ * exposed only when hovering the related button.
+ * They are called labels but are in fact data-attributes of
+ * each button (an anchor tag).
+ */
+[data-onc-label]:after {
+  content: attr(data-onc-label);
+  opacity: 0;
+  transition: all 0.5s;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 4px 10px;
+  border-radius: 3px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  font-weight: normal;
+  pointer-events: none;
+  line-height: normal;
+  position: absolute;
+  top: 50%;
+  margin-top: -11px;
+  transition: all 0.5s;
+}
+
+/*------------------------------------*\
+    #LABELS | Modifiers
+\*------------------------------------*/
+.onc-component--br [data-onc-label]:after,
+.onc-component--tr [data-onc-label]:after {
+  content: attr(data-onc-label);
+  right: 70px;
+}
+
+.onc-component--br .onc-component__list [data-onc-label]:after,
+.onc-component--tr .onc-component__list [data-onc-label]:after {
+  content: attr(data-onc-label);
+  right: 70px;
+}
+
+.onc-component--tl [data-onc-label]:after,
+.onc-component--bl [data-onc-label]:after {
+  content: attr(data-onc-label);
+  left: 70px;
+}
+
+.onc-component--tl .onc-component__list [data-onc-label]:after,
+.onc-component--bl .onc-component__list [data-onc-label]:after {
+  content: attr(data-onc-label);
+  left: 70px;
+}
+
+.onc-cb-menu-start {
+  background: rgb(235, 52, 73);
+  background: linear-gradient(
+    45deg,
+    rgba(235, 52, 73, 1) 0%,
+    rgba(242, 91, 67, 1) 100%
+  );
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+@keyframes swing {
+  20% {
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+  }
+  40% {
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+  60% {
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+  }
+  80% {
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+  }
+  to {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes oncPulse {
+  0% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+  to {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
+
+@keyframes oncHeartBeat {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  14% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+  28% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  42% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+  70% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(10%, 0, 0);
+    transform: translate3d(10%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+}
+
+.onc-button img:hover {
+  animation: oncPulse 0.5s;
+  animation-iteration-count: 0.5s;
+}
+
+.onc-button:hover::after {
+  opacity: 1;
+  animation: fadeInRight 0.5s;
+}
+
+.onc-icon-close img {
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+}
+
+.onc-icon-chats img {
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+}
+
+.onc-icon-close,
+.onc-icon-chats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 56px;
+}
+
+.onc-title-icon img {
+  width: 24px;
+}
+
+.onc-title-icon {
+  display: table-cell;
+  vertical-align: middle;
+  width: 28px;
+}
+
+.onc-popup-hidden {
+  display: none;
+}
+.onc-popup-container {
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+.onc-popup-viber-num {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  display: block;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.onc-popup-viber-txt {
+  margin-bottom: 20px;
+  display: block;
+}
+
+.onc-popup-snapchat-username {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  display: block;
+  line-height: 1;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.onc-popup-snapchat .onc-popup-container {
+  padding-top: 20px;
+}
+
+.onc-button img {
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+}
+
+div[data-onc-item="facebook-cc"],
+.onc-popup-facebook-cc .onc-title,
+ul[data-onc-item="facebook-cc"] .onc-cb-menu-start {
+  background: rgb(71, 155, 254);
+  background: linear-gradient(
+    45deg,
+    rgba(71, 155, 254, 1) 0%,
+    rgba(79, 191, 254, 1) 100%
+  ) !important;
+}
+
+div[data-onc-item="messenger"],
+.onc-popup-messenger .onc-title,
+ul[data-onc-item="messenger"] .onc-cb-menu-start {
+  background: rgb(0, 153, 255) !important;
+  background: linear-gradient(
+    45deg,
+    rgba(0, 153, 255, 1) 0%,
+    rgba(160, 51, 255, 1) 45%,
+    rgba(214, 68, 107, 1) 85%,
+    rgba(255, 112, 97, 1) 100%
+  ) !important;
+}
+
+div[data-onc-item="whatsapp"],
+.onc-popup-whatsapp .onc-title,
+ul[data-onc-item="whatsapp"] .onc-cb-menu-start {
+  background: rgb(69, 211, 102) !important;
+  background: linear-gradient(
+    45deg,
+    rgba(69, 211, 102, 1) 0%,
+    rgba(69, 211, 102, 1) 100%
+  ) !important;
+}
+
+div[data-onc-item="viber"],
+.onc-popup-viber .onc-title,
+ul[data-onc-item="viber"] .onc-cb-menu-start {
+  background: #7360f2 !important;
+}
+
+div[data-onc-item="instagram"],
+.onc-popup-instagram .onc-title,
+ul[data-onc-item="instagram"] .onc-cb-menu-start {
+  background: #f09433 !important;
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  ) !important;
+}
+
+div[data-onc-item="linkedin"],
+.onc-popup-linkedin .onc-title,
+ul[data-onc-item="linkedin"] .onc-cb-menu-start {
+  background: #3166c2 !important;
+}
+
+div[data-onc-item="skype"],
+.onc-popup-skype .onc-title,
+ul[data-onc-item="skype"] .onc-cb-menu-start {
+  background: #0078d7 !important;
+}
+
+div[data-onc-item="snapchat"],
+.onc-popup-snapchat .onc-title,
+ul[data-onc-item="snapchat"] .onc-cb-menu-start {
+  background: #f9e104 !important;
+}
+
+.onc-popup-snapchat .onc-title {
+  color: #000000;
+}
+
+div[data-onc-item="line"],
+.onc-popup-line .onc-title,
+ul[data-onc-item="line"] .onc-cb-menu-start {
+  background: #39b900 !important;
+}
+
+div[data-onc-item="twitter"],
+.onc-popup-twitter .onc-title,
+ul[data-onc-item="twitter"] .onc-cb-menu-start {
+  background: #46a2f3 !important;
+}
+
+div[data-onc-item="vkontakte"],
+.onc-popup-vkontakte .onc-title,
+ul[data-onc-item="vkontakte"] .onc-cb-menu-start {
+  background: #2787f5 !important;
+}
+
+div[data-onc-item="telegram"],
+.onc-popup-telegram .onc-title,
+ul[data-onc-item="telegram"] .onc-cb-menu-start {
+  background: rgb(71, 170, 236) !important;
+  background: radial-gradient(
+    circle,
+    rgba(71, 170, 236, 1) 0%,
+    rgba(66, 160, 219, 1) 100%
+  ) !important;
+}
+
+div[data-onc-item="call"],
+.onc-popup-call .onc-title,
+ul[data-onc-item="call"] .onc-cb-menu-start {
+  background: #4caf50 !important;
+}
+
+div[data-onc-item="mail"],
+.onc-popup-mail .onc-title,
+ul[data-onc-item="mail"] .onc-cb-menu-start {
+  background: #f44334 !important;
+}
+
+.onc-popup-container img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.onc-popup-messenger .onc-container-2 iframe {
+  height: 300px !important;
+  width: 300px !important;
+}
+
+.fb-root-container {
+  display: none;
+}
+
+.is-mobile .onc-button:after {
+  opacity: 1;
+}

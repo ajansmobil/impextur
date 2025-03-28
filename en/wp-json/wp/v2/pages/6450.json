@@ -1,0 +1,70 @@
+{
+  "id": 6450,
+  "date": "2021-10-11T06:40:21",
+  "date_gmt": "2021-10-11T06:40:21",
+  "guid": { "rendered": "https://www.impextur.com/demo/blog/" },
+  "modified": "2021-11-08T00:32:31",
+  "modified_gmt": "2021-11-08T00:32:31",
+  "slug": "blog",
+  "status": "publish",
+  "type": "page",
+  "link": "https://www.impextur.com/en/blog/",
+  "title": { "rendered": "News &#038; Blog" },
+  "content": {
+    "rendered": "\t\t<div data-elementor-type=\"wp-page\" data-elementor-id=\"6450\" class=\"elementor elementor-6450 elementor-5690\" data-elementor-settings=\"[]\">\n\t\t\t\t\t\t\t<div class=\"elementor-section-wrap\">\n\t\t\t\t\t        <section class=\"elementor-section elementor-top-section elementor-element elementor-element-928f20f elementor-section-boxed elementor-section-height-default elementor-section-height-default ct-header-fixed-none\" data-id=\"928f20f\" data-element_type=\"section\">\n            \n                        <div class=\"elementor-container elementor-column-gap-extended \">\n                    <div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b1ac6d1\" data-id=\"b1ac6d1\" data-element_type=\"column\">\n            <div class=\"elementor-widget-wrap elementor-element-populated\">\n                        \t\t<div class=\"elementor-element elementor-element-8c0262c elementor-widget elementor-widget-ct_blog_grid\" data-id=\"8c0262c\" data-element_type=\"widget\" data-widget_type=\"ct_blog_grid.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\r\n<div id=\"ct_blog_grid-8c0262c\" class=\"ct-grid ct-blog-grid ct-blog-grid-layout1\" data-layout=\"masonry\" data-start-page=\"1\" data-max-pages=\"1\" data-total=\"4\" data-perpage=\"6\" data-next-link=\"\">\r\n    <div class=\"ct-grid-overlay\"></div>\r\n    \r\n    <div class=\"ct-grid-inner ct-grid-masonry row animate-time\" data-gutter=\"15\">\r\n                    <div class=\"grid-sizer col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12\"></div>\r\n                                <div class=\"grid-item col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 \">\r\n                    <div class=\"grid-item-inner wow fadeInUp\">\r\n                                                    <div class=\"entry-featured\">\r\n                                <a href=\"https://www.impextur.com/en/why-export-matters/\"><img class=\"disable-lazy \" src=\"https://www.impextur.com/wp-content/uploads/2019/11/ihracat-neden-onelidir-600x414.jpg\" width=\"600\" height=\"414\" alt=\"ihracat-neden-onelidir\" title=\"ihracat-neden-onelidir\" /></a>\r\n                            </div>\r\n                                                <div class=\"entry-body\">\r\n                            <div class=\"entry-holder\">\r\n                                                                <h3 class=\"entry-title\"><a href=\"https://www.impextur.com/en/why-export-matters/\">Why export matters ?</a></h3>\r\n                                                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n                            <div class=\"grid-item col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 \">\r\n                    <div class=\"grid-item-inner wow fadeInUp\">\r\n                                                    <div class=\"entry-featured\">\r\n                                <a href=\"https://www.impextur.com/en/what-is-transit-trade-why-important/\"><img class=\"disable-lazy \" src=\"https://www.impextur.com/wp-content/uploads/2021/10/transit-ticaret-600x414.jpg\" width=\"600\" height=\"414\" alt=\"transit-ticaret\" title=\"transit-ticaret\" /></a>\r\n                            </div>\r\n                                                <div class=\"entry-body\">\r\n                            <div class=\"entry-holder\">\r\n                                                                <h3 class=\"entry-title\"><a href=\"https://www.impextur.com/en/what-is-transit-trade-why-important/\">What is Transit Trade, Why important?</a></h3>\r\n                                                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n                            <div class=\"grid-item col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 \">\r\n                    <div class=\"grid-item-inner wow fadeInUp\">\r\n                                                    <div class=\"entry-featured\">\r\n                                <a href=\"https://www.impextur.com/en/what-is-foreign-trade-how-is-it-done/\"><img class=\"disable-lazy \" src=\"https://www.impextur.com/wp-content/uploads/2021/10/dis-ticaet-nedir-600x414.jpg\" width=\"600\" height=\"414\" alt=\"dis-ticaet-nedir\" title=\"dis-ticaet-nedir\" /></a>\r\n                            </div>\r\n                                                <div class=\"entry-body\">\r\n                            <div class=\"entry-holder\">\r\n                                                                <h3 class=\"entry-title\"><a href=\"https://www.impextur.com/en/what-is-foreign-trade-how-is-it-done/\">What is Foreign Trade, How is it done?</a></h3>\r\n                                                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n                            <div class=\"grid-item col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 \">\r\n                    <div class=\"grid-item-inner wow fadeInUp\">\r\n                                                    <div class=\"entry-featured\">\r\n                                <a href=\"https://www.impextur.com/en/what-is-logistics-concepts/\"><img class=\"disable-lazy \" src=\"https://www.impextur.com/wp-content/uploads/2021/10/lojistik-nedir-600x414.jpg\" width=\"600\" height=\"414\" alt=\"lojistik-nedir\" title=\"lojistik-nedir\" /></a>\r\n                            </div>\r\n                                                <div class=\"entry-body\">\r\n                            <div class=\"entry-holder\">\r\n                                                                <h3 class=\"entry-title\"><a href=\"https://www.impextur.com/en/what-is-logistics-concepts/\">What is Logistics? Concepts</a></h3>\r\n                                                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n                </div>\r\n        </div>\t\t</div>\n\t\t\t\t</div>\n\t\t            </div>\n        </div>\n                            </div>\n        </section>\n        \t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "<p>Transit Ticaret Nedir, Neden \u00d6nemlidir? \u0130hracat Neden \u00d6nemlidir?</p>\n",
+    "protected": false
+  },
+  "author": 1,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": [],
+  "_links": {
+    "self": [
+      { "href": "https://www.impextur.com/en/wp-json/wp/v2/pages/6450" }
+    ],
+    "collection": [
+      { "href": "https://www.impextur.com/en/wp-json/wp/v2/pages" }
+    ],
+    "about": [
+      { "href": "https://www.impextur.com/en/wp-json/wp/v2/types/page" }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://www.impextur.com/en/wp-json/wp/v2/users/1"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://www.impextur.com/en/wp-json/wp/v2/comments?post=6450"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 1,
+        "href": "https://www.impextur.com/en/wp-json/wp/v2/pages/6450/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 6764,
+        "href": "https://www.impextur.com/en/wp-json/wp/v2/pages/6450/revisions/6764"
+      }
+    ],
+    "wp:attachment": [
+      { "href": "https://www.impextur.com/en/wp-json/wp/v2/media?parent=6450" }
+    ],
+    "curies": [
+      { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+    ]
+  }
+}

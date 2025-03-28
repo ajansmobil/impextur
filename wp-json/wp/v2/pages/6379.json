@@ -1,0 +1,61 @@
+{
+  "id": 6379,
+  "date": "2021-10-14T10:20:07",
+  "date_gmt": "2021-10-14T10:20:07",
+  "guid": { "rendered": "https://www.impextur.com/demo/?page_id=6379" },
+  "modified": "2021-11-08T02:26:12",
+  "modified_gmt": "2021-11-08T02:26:12",
+  "slug": "kariyer",
+  "status": "publish",
+  "type": "page",
+  "link": "https://www.impextur.com/kariyer/",
+  "title": { "rendered": "Kariyer" },
+  "content": {
+    "rendered": "\t\t<div data-elementor-type=\"wp-page\" data-elementor-id=\"6379\" class=\"elementor elementor-6379\" data-elementor-settings=\"[]\">\n\t\t\t\t\t\t\t<div class=\"elementor-section-wrap\">\n\t\t\t\t\t        <section class=\"elementor-section elementor-top-section elementor-element elementor-element-f019bad elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ct-header-fixed-none\" data-id=\"f019bad\" data-element_type=\"section\">\n            \n                        <div class=\"elementor-container elementor-column-gap-extended \">\n                    <div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5ce29c2\" data-id=\"5ce29c2\" data-element_type=\"column\">\n            <div class=\"elementor-widget-wrap\">\n                                    </div>\n        </div>\n                <div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-877c444\" data-id=\"877c444\" data-element_type=\"column\">\n            <div class=\"elementor-widget-wrap\">\n                                    </div>\n        </div>\n                            </div>\n        </section>\n                <section class=\"elementor-section elementor-top-section elementor-element elementor-element-7d640f1 elementor-section-boxed elementor-section-height-default elementor-section-height-default ct-header-fixed-none\" data-id=\"7d640f1\" data-element_type=\"section\">\n            \n                        <div class=\"elementor-container elementor-column-gap-extended \">\n                    <div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1e2ce89\" data-id=\"1e2ce89\" data-element_type=\"column\">\n            <div class=\"elementor-widget-wrap elementor-element-populated\">\n                        \t\t<div class=\"elementor-element elementor-element-797045f elementor-widget elementor-widget-wp-widget-elfsight-form-builder\" data-id=\"797045f\" data-element_type=\"widget\" data-widget_type=\"wp-widget-elfsight-form-builder.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\n            <div \n                class=\"elfsight-widget-form-builder elfsight-widget\" \n                data-elfsight-form-builder-options=\"%7B%22ei%22%3A%22%22%2C%22fields%22%3A%5B%7B%22type%22%3A%22text%22%2C%22placeholder%22%3A%22Ad%5Cu0131n%5Cu0131z%20Soyad%5Cu0131n%5Cu0131z%22%2C%22description%22%3A%22%22%2C%22label%22%3A%22Ad%5Cu0131n%5Cu0131z%20Soyad%5Cu0131n%5Cu0131z%22%2C%22required%22%3Afalse%2C%22columnWidth%22%3A50%2C%22id%22%3A%22%5Bad%5Cu0131n%5Cu0131z-soyad%5Cu0131n%5Cu0131z%5D%22%7D%2C%7B%22type%22%3A%22url%22%2C%22label%22%3A%22Do%5Cu011fum%20Tarihiniz%22%2C%22description%22%3A%22%22%2C%22placeholder%22%3A%22Do%5Cu011fum%20Tarihiniz%22%2C%22required%22%3Afalse%2C%22columnWidth%22%3A50%2C%22id%22%3A%22%5Bdo%5Cu011fum-tarihiniz%5D%22%7D%2C%7B%22type%22%3A%22phone%22%2C%22label%22%3A%22Telefon%20Numaran%5Cu0131z%22%2C%22placeholder%22%3A%22Telefon%20Numaran%5Cu0131z%22%2C%22description%22%3A%22%22%2C%22required%22%3Atrue%2C%22columnWidth%22%3A50%2C%22id%22%3A%22%5Btelefon-numaran%5Cu0131z%5D%22%7D%2C%7B%22type%22%3A%22email%22%2C%22label%22%3A%22Email%20Adresiniz%22%2C%22description%22%3A%22%22%2C%22placeholder%22%3A%22Email%20Adresiniz%22%2C%22required%22%3Atrue%2C%22columnWidth%22%3A50%2C%22id%22%3A%22%5Bemail-adresiniz%5D%22%7D%2C%7B%22type%22%3A%22file%22%2C%22label%22%3A%22CV%20%28%5Cu00f6zge%5Cu00e7mi%5Cu015f%20Ekle%29%22%2C%22description%22%3A%22%22%2C%22fileLinkCaption%22%3A%22Dosya%20Se%5Cu00e7%22%2C%22fileDragCaption%22%3A%22%28yada%20buraya%20s%5Cu00fcr%5Cu00fckle%29%22%2C%22fileAllowedAll%22%3Atrue%2C%22fileMax%22%3A25%2C%22required%22%3Afalse%2C%22fileAllowed%22%3A%5B%22.jpg%22%2C%22.jpeg%22%2C%22.png%22%2C%22.gif%22%2C%22.txt%22%2C%22.pdf%22%2C%22.doc%22%2C%22.docx%22%2C%22.pages%22%2C%22.numbers%22%2C%22.xls%22%2C%22.xlsx%22%2C%22.odt%22%2C%22.ppt%22%2C%22.pptx%22%2C%22.pps%22%2C%22.ppsx%22%2C%22.html%22%5D%7D%2C%7B%22type%22%3A%22textarea%22%2C%22label%22%3A%22Mesaj%5Cu0131n%5Cu0131z%22%2C%22description%22%3A%22%22%2C%22placeholder%22%3A%22B%5Cu0131rakmak%20istedi%5Cu011finiz%20mesaj%5Cu0131n%5Cu0131z%22%2C%22required%22%3Atrue%2C%22columnWidth%22%3A100%2C%22id%22%3A%22%5Bmesaj%5Cu0131n%5Cu0131z%5D%22%7D%5D%2C%22headerActive%22%3Atrue%2C%22headerTitle%22%3A%22%5Cu0130nsan%20Kaynaklar%5Cu0131%20Formu%22%2C%22headerText%22%3A%22L%5Cu00fctfen%20bilgilerinizi%20do%5Cu011fru%20ve%20eksiksiz%20olarak%20doldurunuz.%20En%20k%5Cu0131sa%20s%5Cu00fcrede%20size%20d%5Cu00f6n%5Cu00fc%5Cu015f%20yapaca%5Cu011f%5Cu0131z.%22%2C%22headerPictureUrl%22%3A%22message%22%2C%22footerText%22%3A%22%22%2C%22actionAfterSubmit%22%3A%22message%22%2C%22successMessage%22%3A%22Mesaj%5Cu0131n%5Cu0131z%20ba%5Cu015far%5Cu0131yla%20g%5Cu00f6nderildi%21%20K%5Cu0131sa%20s%5Cu00fcre%20i%5Cu00e7inde%20size%20cevap%20verece%5Cu011fiz.%22%2C%22successContinueText%22%3A%22TAMAM%22%2C%22redirectUrl%22%3A%22https%3A%5C%2F%5C%2Fexample.com%22%2C%22submitText%22%3A%22G%5Cu00f6nder%22%2C%22stepsMessagesDivider%22%3Anull%2C%22stepsMessagesTitle%22%3Anull%2C%22stepsText%22%3A%22step%20%251%20of%20%252%22%2C%22stepBackText%22%3A%22Back%22%2C%22stepNextText%22%3A%22Next%22%2C%22errorMessageAllRequired%22%3A%22L%5Cu00fctfen%20gerekli%20t%5Cu00fcm%20alanlar%5Cu0131%20doldurun%22%2C%22errorMessageAllIncorrect%22%3A%22L%5Cu00fctfen%20t%5Cu00fcm%20alanlar%5Cu0131%20do%5Cu011fru%20doldurunuz%22%2C%22errorMessageSetMailTo%22%3A%22L%5Cu00fctfen%20mesajlar%5Cu0131n%20g%5Cu00f6nderilece%5Cu011fi%20e-postay%5Cu0131%20ayarlay%5Cu0131n%22%2C%22errorMessageRequiredCaptcha%22%3A%22L%5Cu00fctfen%20captcha%27y%5Cu0131%20girin%22%2C%22errorMessageFileSizeLimit%22%3A%22Dosya%20boyutu%20s%5Cu0131n%5Cu0131r%5Cu0131%20a%5Cu015f%5Cu0131ld%5Cu0131%22%2C%22errorMessageFileNotAllowed%22%3A%22Dosya%20uzant%5Cu0131s%5Cu0131na%20izin%20verilmiyor%22%2C%22errorMessageUnknown%22%3A%22Bilinmeyen%20hata%22%2C%22errorMessageRequired%22%3A%22Gerekli%20Alan%22%2C%22errorMessageInvalid%22%3A%22Ge%5Cu00e7ersiz%22%2C%22errorMessageInvalidEmail%22%3A%22Ge%5Cu00e7ersiz%20e-posta%22%2C%22errorMessageInvalidPhone%22%3A%22Ge%5Cu00e7ersiz%20telefon%20numaras%5Cu0131%22%2C%22errorMessageInvalidUrl%22%3A%22Ge%5Cu00e7ersiz%20URL%22%2C%22calendarWeekdaysShorthand%22%3A%22Pzt%5CnSal%5Cn%5Cu00c7ar%5CnPer%5CnCum%2C%5CnCmt%2C%5CnPaz%22%2C%22calendarMonthsLonghand%22%3A%22Ocak%5Cn%5Cu015eubat%5CnMart%5CnNisan%5CnMay%5Cu0131s%5CnHaziran%5CnTemmuz%5CnA%5Cu011fustos%5CnEyl%5Cu00fcl%5CnEkim%5CnKas%5Cu0131m%5CnAral%5Cu0131k%22%2C%22showProgress%22%3Atrue%2C%22recaptchaType%22%3A%22invisible%22%2C%22integrationsGoogleToken%22%3A%22%22%2C%22integrationsGoogleSheetId%22%3A%22%22%2C%22layout%22%3A%22default%22%2C%22floatingIcon%22%3A%22message%22%2C%22floatingText%22%3A%22%22%2C%22floatingPosition%22%3A%22right%22%2C%22width%22%3A%22580%22%2C%22style%22%3A%22flat-rounded%22%2C%22mainColor%22%3A%22rgb%289%2C%20139%2C%20190%29%22%2C%22apiUrl%22%3A%22https%3A%5C%2F%5C%2Fwww.impextur.com%5C%2Fwp-json%5C%2Felfsight-form-builder%5C%2Fapi%22%2C%22recaptchaKeyCheckbox%22%3A%226LfXGHgUAAAAAHNIE_EH7kEI1l4xvf_ynIlg5bfo%22%2C%22recaptchaKeyInvisible%22%3A%226Ld1CXgUAAAAAFTHmixC1Eo-NP7_3ddB1YOj9AfX%22%2C%22widgetId%22%3A%222%22%7D\" \n                data-elfsight-form-builder-version=\"1.5.1\"\n                data-elfsight-widget-id=\"elfsight-form-builder-2\">\n            </div>\n            \t\t</div>\n\t\t\t\t</div>\n\t\t            </div>\n        </div>\n                            </div>\n        </section>\n        \t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t",
+    "protected": false
+  },
+  "excerpt": { "rendered": "", "protected": false },
+  "author": 1,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": [],
+  "_links": {
+    "self": [{ "href": "https://www.impextur.com/wp-json/wp/v2/pages/6379" }],
+    "collection": [{ "href": "https://www.impextur.com/wp-json/wp/v2/pages" }],
+    "about": [{ "href": "https://www.impextur.com/wp-json/wp/v2/types/page" }],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://www.impextur.com/wp-json/wp/v2/users/1"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://www.impextur.com/wp-json/wp/v2/comments?post=6379"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 10,
+        "href": "https://www.impextur.com/wp-json/wp/v2/pages/6379/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 6394,
+        "href": "https://www.impextur.com/wp-json/wp/v2/pages/6379/revisions/6394"
+      }
+    ],
+    "wp:attachment": [
+      { "href": "https://www.impextur.com/wp-json/wp/v2/media?parent=6379" }
+    ],
+    "curies": [
+      { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+    ]
+  }
+}
